@@ -70,7 +70,6 @@ app.post("/todos", checksExistsUserAccount, (request, response) => {
   };
 
   user.todos.push(todoOp);
-  git;
 
   response.status(201).json(todoOp);
 });
